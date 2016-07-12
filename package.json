@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_workshop_2",
+  "version": "1.0.0",
+  "description": "nodejs workshop 2 parse.json practice",
+  "main": "request-as-json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DecodeMTL/node-workshop-2.git"
+  },
+  "keywords": [
+    "workshop",
+    "decodemtl",
+    "nodejs"
+  ],
+  "author": "Dennis Tsang <sonicspeeds@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DecodeMTL/node-workshop-2/issues"
+  },
+  "homepage": "https://github.com/DecodeMTL/node-workshop-2#readme"
+}
