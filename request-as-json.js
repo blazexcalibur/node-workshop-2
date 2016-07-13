@@ -1,23 +1,8 @@
 //NodeJS Workshop #2
 
-var request = require('request');
+//var request = require('request');
+var fetchUrl = require('./library/request-json.js').data;
 
-function data(url, callback) {
-    request(url, function(err, res) {
-        if (err) {
-            callback(err);
-        }
-        else {
-            try {
-                var parsed = JSON.parse(res.body);
-                callback(null, parsed)
-            }
-            catch (err) {
-                callback(err);
-            }
-        }
-    })
-}
 
 function callback(err, res) {
         if (err) {
@@ -28,4 +13,4 @@ function callback(err, res) {
             }
         }
  
-data('https://maps.googleapis.com/maps/api/geocode/json?address=montreal', callback); 
+fetchUrl('https://maps.googleapis.com/maps/api/geocode/json?address=montreal', callback); 
